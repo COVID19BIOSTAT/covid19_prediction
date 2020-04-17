@@ -5,8 +5,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 ## Setup requirements
 
 + Python under version 3.7
-+ Tensorflow under version 2.1.0
-+ Other basic libraries including Numpy, Scikit-learn, etc. 
++ Tensorflow under version 2.1.0 
 
 ## Example
 
@@ -27,7 +26,7 @@ array([    1.,    20.,     0.,     0.,    18.,     4.,     3.,     0.,
 Now we want to fit this training data into our model.
 We need to decide the following __arguments__.
 
-+ `knots` - length of segments of pieces for the infection rate. E.g., with 81 training data, we decide a knot after 23 days, so `knots` will be `23,28`.
++ `knots` - length of piecewise segments for the infection rate. E.g., with 81 training data, we decide a knot after 23 days, so `knots` will be `23,28`.
 + `input_path` - directory of the input `train_data.npy`.
 + `output_path` - directory to save output files.
 + `max_epochs` - number of epochs used in tensorflow optimizer (default: Adam), usually from 1000 to 3000 depending on numbers of knots and data size.
@@ -39,11 +38,24 @@ We need to decide the following __arguments__.
 
  Then we can use the following command to run the model in our example.
 
- `python run_single_machine_model.py --knots=23,28 --input_path="example/train_data.npy" --output_path="example/output" --max_epoch=2000 --initial_a=0.5,0.5,0.5 --learning_rate=0.01`
+ `python run_single_machine_model.py --knots=23,28 --input_path="example/train_data.npy" --output_path="example/output" --max_epochs=2000 --initial_a=0.5,0.5,0.5 --learning_rate=0.01`
 
- The running time increases as number of knots, number of epochs and data size increases. The code can be adjusted for using multiple CPU cores to reduce the time. 
+ The running time increases as number of knots, number of epochs and data size increases. The code can be adjusted for using multiple CPU cores to reduce the time, using the following command.
 
-### Output files
+ `python run_multi_machine_model.py --knots=23,28 --input_path="example/train_data.npy" --output_path="example/output" --max_epochs=2000 --initial_a=0.5,0.5,0.5 --learning_rate=0.01`
+
+### Output
+After running the above command, we should have the following output files in `output_path`.
++ `best_t0.npy` - estimated t0
++ `best_weights.npy` - estimated `a`. E.g., in our example, the estimates for `a` contains three values. The infection rate is constant before the first observed case with value a1 and then linearly change to a2 during the first 23 days and from a2 to a3 in the next 28 days.
++ `predicted_infection_rate.npy` - infection rate from the first observed case.
++ `predicted_reproduction_number.npy` - reproduction number from the first observed case.
++ `predicted_daily_observed.npy` - daily new observed cases from the first observed case.
++ `predicted_daily_infected.npy` - cumulative latent cases on each day from the first observed case. 
+
+Using the output files, we can visualize the piecewise infection rate and the reproduction number (Rt)
+
+
 
 
 
