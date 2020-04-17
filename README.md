@@ -10,6 +10,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 ## Example
 
+### Input data
 Suppose that we have an `numpy.array` `train_data` indicating observed daily confirmed/diagnosed cases starting from the first observed case. We will save it as "train_data.npy".
 ```
 >>> train_data
@@ -21,6 +22,8 @@ array([    1.,    20.,     0.,     0.,    18.,     4.,     3.,     0.,
        24914., 26655., 30107., 32454., 34196., 25400., 31240., 33502.,
        31997., 33606., 33752.], dtype=float32)
 ```
+
+### Command
 Now we want to fit this training data into our model.
 We need to decide the following __arguments__.
 
@@ -35,10 +38,12 @@ We need to decide the following __arguments__.
   + `min_t0`,`max_t0` - range of t0 to iterate (default: 1 to 21)
 
  Then we can use the following command to run the model in our example.
+
  `python run_single_machine_model.py --knots=23,28 --input_path="example/train_data.npy" --output_path="example/output" --max_epoch=2000 --initial_a=0.5,0.5,0.5 --learning_rate=0.01`
 
  The running time increases as number of knots, number of epochs and data size increases. The code can be adjusted for using multiple CPU cores to reduce the time. 
 
- 
+### Output files
+
 
 
