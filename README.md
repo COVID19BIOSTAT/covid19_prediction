@@ -55,6 +55,8 @@ After running the above command, we should have the following output files in `o
 
 Using the output files, we can visualize the piecewise infection rate and the reproduction number (Rt)
 
+![infection rate](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/infection.png)
+
 
 
 
