@@ -1,4 +1,5 @@
 # Survival-Convolution Model for COVID-19 Prediction
+=============
 
 We present a parsimonious and robust survival-convolution model to predict daily new cases and latent cases. The model accounts for transmission during a incubation period and uses a time-varying reproduction number to reflect the temporal trend and change of transmission in response to an intervention. 
 
