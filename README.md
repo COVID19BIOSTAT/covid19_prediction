@@ -24,7 +24,7 @@ Observed and predicted daily new cases, 95% prediction intervals (lighter shaded
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
-Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indi- cates two weeks after. Training data: February 15 to April 10; Testing data: April 11 to date.
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 15 to April 10; Testing data: April 11 to date.
 
 ## Setup Requirements
 
