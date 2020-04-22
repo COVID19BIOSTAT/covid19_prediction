@@ -17,11 +17,13 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit.png)
 
+Observed and predicted daily new cases, 95% prediction intervals (lighter shaded). First dashed line indicates the declaration of national emergency (March 13). Second dashed line indicates two weeks after (March 27). Training data: February 20 to April 10; Testing data: April 11 to date.
+
 ### Italy Daily New Cases:
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
-Note: training data used for model fitting is up to April 10, 2020. Dot: number of confirmed daily new cases; Red shade: 95% confidence interval of our prediction. 
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indi- cates two weeks after. Training data: February 15 to April 10; Testing data: April 11 to date.
 
 ## Setup Requirements
 
