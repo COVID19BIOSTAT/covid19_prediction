@@ -9,6 +9,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 - Institutes: 
   + Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA 
   + Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA
+- medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1
 
 ## Setup requirements
 
