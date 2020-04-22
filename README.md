@@ -21,7 +21,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
-Note: training data used for model fitting is up to April 10, 2020. Dot: confirmed daily new cases; Red shade: 95% confidence interval of our prediction. 
+Note: training data used for model fitting is up to April 10, 2020. Dot: number of confirmed daily new cases; Red shade: 95% confidence interval of our prediction. 
 
 ## Setup Requirements
 
