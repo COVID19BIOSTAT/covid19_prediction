@@ -5,7 +5,7 @@
 We present a parsimonious and robust survival-convolution model to predict daily new cases and latent cases. The model accounts for transmission during an incubation period and uses a time-varying reproduction number to reflect the temporal trend and change of transmission in response to an intervention. 
 
 - Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** (medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1)
-- Authors: Qinxia Wang, Shanghong Xie, Yuanjia Wang, and Donglin Zeng
+- Authors: **Qinxia Wang, Shanghong Xie, Yuanjia Wang, and Donglin Zeng**
 - Correspondonce to: Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)
 - Institutes: 
   + Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA 
