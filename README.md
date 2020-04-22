@@ -13,11 +13,11 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 
 ## Real time prediction (Updated on April 21)
-US Daily New Cases:
+### US Daily New Cases:
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit.png)
 
-Italy Daily New Cases:
+### Italy Daily New Cases:
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
