@@ -11,6 +11,12 @@ We present a parsimonious and robust survival-convolution model to predict daily
   + Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA
 - medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1
 
+
+## Real time prediction 
+
+![US](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit.pdf)
+![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.pdf)
+
 ## Setup requirements
 
 + Python under version 3.7
