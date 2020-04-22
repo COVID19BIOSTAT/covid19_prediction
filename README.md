@@ -8,7 +8,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 - Authors: **Qinxia Wang, Shanghong Xie, Yuanjia Wang, and Donglin Zeng**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
 - Institutes: 
-  + **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA **
+  + **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA**
   + **Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA**
 - Manuscript submitted date: **April 16, 2020**
 
