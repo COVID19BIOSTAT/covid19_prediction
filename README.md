@@ -12,7 +12,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 - medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1
 
 
-## Real time prediction (Updated on April 21)
+## Real Time Prediction (Updated on April 21)
 ### US Daily New Cases:
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit.png)
@@ -21,7 +21,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
-## Setup requirements
+## Setup Requirements
 
 + Python under version 3.7
 + Tensorflow under version 2.1.0 
