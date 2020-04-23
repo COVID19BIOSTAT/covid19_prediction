@@ -18,7 +18,8 @@ We present a parsimonious and robust survival-convolution model to predict daily
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
-Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under three scenarios. 
+Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under three scenarios.
+
 Scenario 1: infection rate a(t) follows the same trend after April 10 as observed between March 27 and April 10. 
 
 Scenario 2: rate of decrease of a(t) slows by 50% after April 10.
