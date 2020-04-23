@@ -13,7 +13,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 - Manuscript submitted date: **April 16, 2020**
 
 
-## Real Time Prediction (Updated on April 21, 2020)
+## Real Time Prediction (Updated on April 22, 2020)
 ### US Daily New Cases:
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
