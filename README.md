@@ -16,7 +16,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 ## Real Time Prediction (Updated on April 21, 2020)
 ### US Daily New Cases:
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
 Observed and predicted daily new cases, 95% prediction intervals (shaded). First dashed line indicates the declaration of national emergency (March 13). Second dashed line indicates two weeks after (March 27). Training data: February 20 to April 10; Testing data: April 11 to date.
 
