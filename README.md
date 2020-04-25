@@ -2,7 +2,11 @@
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> 
 
-We present a parsimonious and robust survival-convolution model to predict daily new cases and latent cases. The model accounts for transmission during an incubation period and uses a time-varying reproduction number to reflect the temporal trend and change of transmission in response to an intervention. 
+The coronavirus disease COVID-19 has created major health crisis around the world. It is imperative to predict the disease epidemic, investigate the impacts of containment and mitigation measures on infection rates, and compare between countries. 
+Existing methods for infectious disease modeling are SEIR models that rely on many untestable prior assumptions (e.g., fitting past influenza data) and unreliable with wide prediction intervals. 
+
+We develop a robust **survival-convolution model** with few parameters that incorporates **the date of unknown patient zero, latent incubation periods**, and **time-varying reproduction numbers**. 
+
 
 - Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** (medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1)
 - Authors: **Qinxia Wang, Shanghong Xie, Yuanjia Wang, and Donglin Zeng**
