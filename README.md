@@ -18,6 +18,8 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 
 ## Real Time Prediction (Updated on April 24, 2020)
+Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
+
 ### US Daily New Cases:
 
 Note: since April 14 2020, CDC case counts include both confirmed and probable cases following new CDC guidelines.
