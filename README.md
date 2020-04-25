@@ -44,6 +44,10 @@ Observed and predicted daily new cases and 95% prediction interval (shaded). Fir
 
 ## Survival-Convolution Model
 
+Here is a short description about our model. The details can be found in the manuscript.
+
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/model.png)
+
 ## Setup Requirements
 
 + Python under version 3.7
