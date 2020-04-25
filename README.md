@@ -8,8 +8,11 @@ Existing methods for infectious disease modeling are SEIR models that rely on ma
 We develop a robust **survival-convolution model** with few parameters that incorporates **the date of unknown patient zero, latent incubation periods**, and **time-varying reproduction numbers**. 
 
 
-- Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** (medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1;
-[Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Slides.pdf))
+- Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** 
+medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1;
+
+[Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Slides.pdf)
+
 - Authors: **Qinxia Wang, Shanghong Xie, Yuanjia Wang, and Donglin Zeng**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
 - Institutes: 
