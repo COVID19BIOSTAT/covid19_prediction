@@ -16,7 +16,7 @@ We present a parsimonious and robust survival-convolution model to predict daily
 ## Real Time Prediction (Updated on April 24, 2020)
 ### US Daily New Cases:
 
-Note: Following new CDC guidelines as of April 14, 2020, case counts include both confirmed and probable cases.
+Note: following new CDC guidelines as of April 14, 2020, case counts include both confirmed and probable cases.
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
