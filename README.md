@@ -19,7 +19,7 @@ We develop a robust **survival-convolution model** with few parameters that inco
 - Manuscript submitted date: **April 16, 2020**
 
 
-## Real Time Prediction (Updated on April 24, 2020)
+## Real Time Prediction (Observed Number as of April 25, 2020)
 Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
