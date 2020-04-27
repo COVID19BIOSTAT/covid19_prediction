@@ -24,7 +24,7 @@ Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
 
-Note: Our training data is up to April 10. Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
+Note: Our training data is up to April 10, 2020. Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
