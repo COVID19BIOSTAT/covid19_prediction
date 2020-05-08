@@ -24,21 +24,21 @@ Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
 
-Note: Our training data is up to April 10, 2020. Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
+Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
 Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
 
-Scenario 1: infection rate a(t) follows the same trend after April 10 as observed between March 27 and April 10. 
+Scenario 1: infection rate a(t) follows the same trend after May 1 as observed between March 27 and May 1. 
 
-Scenario 2: rate of decrease of a(t) slows by 50% after April 10.
+Scenario 2: rate of decrease of a(t) slows by 50% after May 1.
 
-Scenario 3: rate of decrease of a(t) slows by 75% after April 10. 
+Scenario 3: rate of decrease of a(t) slows by 75% after May 1. 
 
-Scenario 4: rate of decrease of a(t) slows by 100% after April 10.
+Scenario 4: rate of decrease of a(t) slows by 100% after May 1.
 
-First dashed line indicates the declaration of national emergency (March 13). Second dashed line indicates two weeks after (March 27). Training data: February 20 to April 10; Testing data: April 11 to date.
+First dashed line indicates the declaration of national emergency (March 13). Second dashed line indicates two weeks after (March 27). Training data: February 21 to May 1; Testing data: May 2 to date.
 
 
 ### US Reproduction Number:
@@ -50,7 +50,7 @@ First dashed line indicates the declaration of national emergency (March 13). Se
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
-Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 15 to April 10; Testing data: April 11 to date.
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
 
 ## Survival-Convolution Model
 
