@@ -26,7 +26,7 @@ Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 Note: Our training data is up to April 10, 2020. Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.pdf)
 
 Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
 
