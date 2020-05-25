@@ -9,14 +9,14 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 
 - Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** 
-<br/> medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1;  <br/> Short description: [Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Slides.pdf)
+<br/> medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1
 
 - Authors: **Qinxia Wang<sup>a</sup>, Shanghong Xie<sup>a</sup>, Yuanjia Wang<sup>a</sup>, and Donglin Zeng<sup>b</sup>**
 - Institutes: 
   + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA**
   + 2. **Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
-- Manuscript submitted date: **April 16, 2020**
+
 
 
 ## Real Time Prediction (Observed Number as of May 7, 2020)
