@@ -19,14 +19,14 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 
 
-## Real Time Prediction (Observed Number as of May 7, 2020)
+## Real Time Prediction (Observed Number as of May 24, 2020)
 Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
 
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention_rev.png)
 
 Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
 
@@ -48,9 +48,9 @@ First dashed line indicates the declaration of national emergency (March 13). Se
 
 ### Italy Daily New Cases:
 
-![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
+![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit_rev.png)
 
-Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second and third dashed line indicates two or four weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
 
 
 
