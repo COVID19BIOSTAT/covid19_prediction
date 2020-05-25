@@ -52,11 +52,7 @@ First dashed line indicates the declaration of national emergency (March 13). Se
 
 Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
 
-## Survival-Convolution Model
 
-Here is a brief description about our model. The details can be found in the [manuscript](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/manuscript).
-
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/model.png)
 
 ## Setup Requirements
 
