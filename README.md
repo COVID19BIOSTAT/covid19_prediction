@@ -9,24 +9,24 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 
 - Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** 
-<br/> medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1;  <br/> Short description: [Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Slides.pdf)
+<br/> medRxiv link: https://www.medrxiv.org/content/10.1101/2020.04.16.20067306v1
 
 - Authors: **Qinxia Wang<sup>a</sup>, Shanghong Xie<sup>a</sup>, Yuanjia Wang<sup>a</sup>, and Donglin Zeng<sup>b</sup>**
 - Institutes: 
   + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA**
   + 2. **Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
-- Manuscript submitted date: **April 16, 2020**
 
 
-## Real Time Prediction (Observed Number as of May 7, 2020)
+
+## Real Time Prediction (Observed Number as of May 26, 2020)
 Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
 
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention_rev.png)
 
 Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
 
@@ -48,15 +48,11 @@ First dashed line indicates the declaration of national emergency (March 13). Se
 
 ### Italy Daily New Cases:
 
-![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
+![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit_rev.png)
 
-Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second dashed line indicates two weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (March 11). Second and third dashed line indicates two or four weeks after. Training data: February 20 to April 29; Testing data: April 30 to date.
 
-## Survival-Convolution Model
 
-Here is a brief description about our model. The details can be found in the [manuscript](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/manuscript).
-
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/model.png)
 
 ## Setup Requirements
 
