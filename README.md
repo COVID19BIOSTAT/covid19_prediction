@@ -19,7 +19,7 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 
 
-## Real Time Prediction (Observed Number as of May 28, 2020)
+## Real Time Prediction (Observed Number as of May 31, 2020)
 Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### US Daily New Cases:
