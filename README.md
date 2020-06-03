@@ -34,7 +34,7 @@ First dashed line indicates the declaration of national emergency (Mar 13). Seco
 
 ### US Daily New Cases (with training data up to May 1):
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention_rev.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
 Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
 
