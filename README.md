@@ -36,7 +36,7 @@ First dashed line indicates the declaration of national emergency (Mar 13). Seco
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
 
-Observed and predicted daily new cases, 95% prediction intervals (lighter shaded) and 50% prediction intervals (darker shaded) under four scenarios.
+Observed and predicted daily new cases, 95% prediction intervals under four scenarios.
 
 Scenario 1: infection rate a(t) follows the same trend after May 1 as observed between March 27 and May 1. 
 
