@@ -60,7 +60,7 @@ First dashed line indicates the declaration of national emergency (March 13). Se
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_R0_intervention.png)
 
 
-### Italy Daily New Cases:
+### Italy Daily New Cases (with training data up to April 29)::
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit.png)
 
