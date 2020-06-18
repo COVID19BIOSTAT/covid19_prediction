@@ -25,13 +25,13 @@ Data source: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
-### US Daily New Cases (with training data up to May 29):
+### US Daily New Cases (with training data up to June 12):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_update.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to fourth dashed lines indicate knots with interval of two weeks (Mar 27, Apr 10, Apr 24). Training data: February 21 to May 29; Testing data: May 30 to date.
+First dashed line indicates the declaration of national emergency (Mar 13). Second to fourth dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1). Training data: February 21 to June 12; Testing data: June 13 to date.
 
 ### US Cumulative Deaths (with training data up to June 12):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath.png)
