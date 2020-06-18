@@ -33,6 +33,10 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 
 First dashed line indicates the declaration of national emergency (Mar 13). Second to fourth dashed lines indicate knots with interval of two weeks (Mar 27, Apr 10, Apr 24). Training data: February 21 to May 29; Testing data: May 30 to date.
 
+### US Cumulative Deaths (with training data up to June 12):
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath.png)
+Observed and predicted cumulative deaths, with a 95% prediction interval.
+
 ### US Daily New Cases (with training data up to May 1):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
