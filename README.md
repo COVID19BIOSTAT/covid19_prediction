@@ -35,6 +35,7 @@ First dashed line indicates the declaration of national emergency (Mar 13). Seco
 
 ### US Cumulative Deaths (with training data up to June 12):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath.png)
+
 Observed and predicted cumulative deaths, with a 95% prediction interval.
 
 ### US Daily New Cases (with training data up to May 1):
