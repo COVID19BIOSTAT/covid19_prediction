@@ -32,7 +32,7 @@ Data source for US: [JHU CSSE group] (https://github.com/CSSEGISandData/COVID-19
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to fourth dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22). Training data: February 21 to July 7; Testing data: June 22 to date.
+First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 12). Training data: February 21 to July 4; Testing data: July 5 to date.
 
 ### US Cumulative Deaths (with training data up to July 4):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath_070520.png)
