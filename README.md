@@ -25,7 +25,7 @@ We develop a robust **survival-convolution model** with few parameters that inco
 
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
-Data source for US: JHU CSSE group (https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
+Data source for US: [JHU CSSE group] (https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 ### US Daily New Cases (with training data up to July 4):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_case_070520.png)
