@@ -24,18 +24,18 @@ Our model is also listed on the [CDC webpage](https://www.cdc.gov/coronavirus/20
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-### US Daily New Cases (with training data up to July 4):
+### US Daily New Cases (with training data up to July 11):
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_case_070520.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_case_071220.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 12). Training data: February 21 to July 4; Testing data: July 5 to date.
+First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26). Training data: February 21 to July 4; Testing data: July 5 to date.
 
-### US Cumulative Deaths (with training data up to July 4):
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath_070520.png)
+### US Cumulative Deaths (with training data up to July 11):
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath_071220.png)
 
-Observed and predicted cumulative deaths, with a 95% prediction interval.
+Observed and predicted cumulative deaths, with a 95% prediction interval. First and second dashed lines indicate knots at May 1 and May 22 account for reopen. 
 
 ### US Daily New Cases (with training data up to May 1):
 
