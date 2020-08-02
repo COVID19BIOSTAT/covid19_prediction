@@ -16,7 +16,7 @@ We develop a robust **survival-convolution model** with few parameters that inco
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
 - [Manuscript](https://www.frontiersin.org/articles/10.3389/fpubh.2020.00325/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Public_Health&id=561170): Wang Q, Xie S, Wang Y, Zeng D (2020). Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies. Frontiers in Public Health 8(2020) 325. 
 
-Our model is also listed on the [CDC webpage](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/forecasting-us.html).
+Our model is also used by [CDC webpage](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/forecasting-us.html) for COVID-19 ensemble forecast.
 
 
 ## Real Time Prediction
