@@ -40,7 +40,7 @@ Observed and predicted cumulative deaths, with a 95% prediction interval. First 
 ### US Daily Inc Deaths (with training data up to July 31):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_incdeath_080220.png)
 
-Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
+Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
 
 
 
