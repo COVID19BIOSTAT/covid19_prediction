@@ -26,44 +26,23 @@ Note: Once the testing capacity is increased, the trend will change again. These
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 ### US Daily New Cases (with training data up to July 31):
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_case_080220.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_case_080820.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26). Training data: February 21 to July 31
+First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26). Training data: February 21 to July 31; Test data: August 1 to August 7.
 
-### US Cumulative Deaths (with training data up to July 31):
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath_080220.png)
+### US Cumulative Deaths (with training data up to August 7):
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_cumdeath_080820.png)
 
 Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
 
-### US Daily Inc Deaths (with training data up to July 31):
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_incdeath_080220.png)
+### US Daily Inc Deaths (with training data up to August 7):
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_daily_incdeath_080820.png)
 
 Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
 
 
-
-### US Daily New Cases (with training data up to May 1):
-
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_fit_intervention.png)
-
-Observed and predicted daily new cases, 95% prediction intervals under four scenarios.
-
-Scenario 1: infection rate a(t) follows the same trend after May 1 as observed between March 27 and May 1. 
-
-Scenario 2: rate of decrease of a(t) slows by 50% after May 1.
-
-Scenario 3: rate of decrease of a(t) slows by 75% after May 1. 
-
-Scenario 4: rate of decrease of a(t) slows by 100% after May 1.
-
-First dashed line indicates the declaration of national emergency (March 13). Second dashed line indicates two weeks after (Mar 27). Training data: Feb 21 to May 1; Testing data: May 2 to date.
-
-
-### US Reproduction Number (with training data up to May 1):
-
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/US_R0_intervention.png)
 
 
 Data source for Italy: [Worldmeters](https://www.worldometers.info/coronavirus/)
@@ -72,7 +51,7 @@ Data source for Italy: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit_rev_080520.png)
 
-Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (Mar 11). Second and third dashed line indicates two or four weeks after. Training data: Feb 20 to Apr 29; Testing data: Apr 30 to date.
+Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (Mar 11). Second and third dashed line indicates two or four weeks after. Training data: Feb 20 to Apr 29; Testing data: Apr 30 to August 7.
 
 
 
