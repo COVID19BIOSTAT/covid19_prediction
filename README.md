@@ -49,7 +49,7 @@ Data source for Italy: [Worldmeters](https://www.worldometers.info/coronavirus/)
 
 ### Italy Daily New Cases (with training data up to April 29)::
 
-![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit_rev_080520.png)
+![Italy](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/Italy_fit_rev_080820.png)
 
 Observed and predicted daily new cases and 95% prediction interval (shaded). First dashed line indicates the nation-wide lockdown (Mar 11). Second and third dashed line indicates two or four weeks after. Training data: Feb 20 to Apr 29; Testing data: Apr 30 to August 7.
 
