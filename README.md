@@ -24,23 +24,23 @@ Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.g
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-### US Daily New Cases (with training data up to August 21):
+### US Daily New Cases (with training data up to August 28):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_case.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26). Training data: February 21 to August 14; Test data: August 22.
+First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26, July 24). Training data: February 21 to August 28; Test data: August 29.
 
-### US Cumulative Deaths (with training data up to August 21):
+### US Cumulative Deaths (with training data up to August 28):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/cumulative_death.png)
 
-Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
+Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
 
-### US Daily Inc Deaths (with training data up to August 21):
+### US Daily Inc Deaths (with training data up to August 28):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_death.png)
 
-Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
+Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
 
 
 
