@@ -1,4 +1,4 @@
-# Survival-Convolution Model for COVID-19 Prediction
+# [Survival-Convolution Model for COVID-19 Prediction](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> 
 
@@ -15,6 +15,7 @@ We develop a robust **survival-convolution model** with few parameters that inco
   + 2. **Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
 - [Manuscript](https://www.frontiersin.org/articles/10.3389/fpubh.2020.00325/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Public_Health&id=561170): Wang Q, Xie S, Wang Y, and Zeng D (2020). Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies. Frontiers in Public Health 8(2020) 325. 
+- [Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)
 
 Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/forecasting-us.html).
 
