@@ -1,4 +1,4 @@
-# [Survival-Convolution Model for COVID-19 Prediction](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)
+# Survival-Convolution Model for COVID-19 Prediction
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> 
 
@@ -8,7 +8,7 @@ Existing methods for infectious disease modeling are SEIR models that rely on ma
 We develop a robust **survival-convolution model** with few parameters that incorporates **the date of unknown patient zero, latent incubation periods**, and **time-varying reproduction numbers**. 
 
 
-- Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** 
+- Title: **[Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)** 
 - Authors: **Qinxia Wang<sup>a</sup>, Shanghong Xie<sup>a</sup>, Yuanjia Wang<sup>a</sup>, and Donglin Zeng<sup>b</sup>**
 - Institutes: 
   + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA**
