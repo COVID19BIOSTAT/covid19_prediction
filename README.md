@@ -8,13 +8,14 @@ Existing methods for infectious disease modeling are SEIR models that rely on ma
 We develop a robust **survival-convolution model** with few parameters that incorporates **the date of unknown patient zero, latent incubation periods**, and **time-varying reproduction numbers**. 
 
 
-- Title: **Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies** 
+- Title: **[Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)** 
 - Authors: **Qinxia Wang<sup>a</sup>, Shanghong Xie<sup>a</sup>, Yuanjia Wang<sup>a</sup>, and Donglin Zeng<sup>b</sup>**
 - Institutes: 
   + 1. **Department of Biostatistics, Mailman School of Public Health, Columbia University, New York, NY, USA**
   + 2. **Department of Biostatistics, Gillings School of Public Health, University of North Carolina at Chapal Hill, Chapal Hill, NC, USA**
 - Correspondonce to: **Dr. Yuanjia Wang (yw2016@cumc.columbia.edu) and Dr. Donglin Zeng (dzeng@email.unc.edu)**
 - [Manuscript](https://www.frontiersin.org/articles/10.3389/fpubh.2020.00325/full?&utm_source=Email_to_authors_&utm_medium=Email&utm_content=T1_11.5e1_author&utm_campaign=Email_publication&field=&journalName=Frontiers_in_Public_Health&id=561170): Wang Q, Xie S, Wang Y, and Zeng D (2020). Survival-Convolution Models for Predicting COVID-19 Cases and Assessing Effects of Mitigation Strategies. Frontiers in Public Health 8(2020) 325. 
+- [Slides](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/slides/Survival_Convolution_Models_Slides.pdf)
 
 Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.gov/coronavirus/2019-ncov/covid-data/forecasting-us.html).
 
@@ -24,23 +25,23 @@ Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.g
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-### US Daily New Cases (with training data up to August 21):
+### US Daily New Cases (with training data up to August 28):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_case.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26). Training data: February 21 to August 14; Test data: August 22.
+First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26, July 24). Training data: February 21 to August 28; Test data: August 29.
 
-### US Cumulative Deaths (with training data up to August 21):
+### US Cumulative Deaths (with training data up to August 28):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/cumulative_death.png)
 
-Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
+Observed and predicted cumulative deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
 
-### US Daily Inc Deaths (with training data up to August 21):
+### US Daily Inc Deaths (with training data up to August 28):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_death.png)
 
-Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26 account for reopen. 
+Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
 
 
 
