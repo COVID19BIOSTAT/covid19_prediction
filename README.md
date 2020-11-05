@@ -31,7 +31,7 @@ Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
-<!---First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26, July 24). Training data: February 21 to August 28; Test data: August 29.
+<!---First dashed line indicates the declaration of national emergency (Mar 13). Second to seventh dashed lines indicate knots with interval of two or three weeks (Mar 27, Apr 10, May 1, May 22, June 26, July 24). Training data: February 21 to August 28; Test data: August 29.--->
 
 ### US Cumulative Deaths (with training data up to Oct 23):
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1023/cumulative_death.pdf)
