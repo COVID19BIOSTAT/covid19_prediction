@@ -37,12 +37,12 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1023/cumulative_death.pdf)
 
 Observed and predicted cumulative deaths, with a 95% prediction interval. 
-<!---First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
+<!---First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
-<!---### US Daily Inc Deaths (with training data up to August 28):
-<!---![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_death.png)
+<!---### US Daily Inc Deaths (with training data up to August 28):--->
+<!---![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_death.png)--->
 
-<!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. 
+<!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
 ### US Current Reproduction Number:
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1023/Rt.png)
