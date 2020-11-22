@@ -27,7 +27,7 @@ Note: Once the testing capacity is increased, the trend will change again. These
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 ### US Daily New Cases (with training data up to Oct 25):
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1023/daily_case.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/daily_case.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
@@ -45,7 +45,7 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 <!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
 ### US Current Reproduction Number:
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1023/Rt.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/Rt.png)
 
 
 Data source for Italy: [Worldmeters](https://www.worldometers.info/coronavirus/)
