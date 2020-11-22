@@ -25,7 +25,7 @@ Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.g
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-### US Daily New Cases (with training data up to Oct 25):
+### US Daily New Cases (with training data up to Nov 6):
 
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/daily_case.png)
 
