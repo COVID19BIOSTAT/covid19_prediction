@@ -93,6 +93,9 @@ def main(unused_argv):
   best_model.set_weights(best_weights)
   estimator._final_model = best_model
 
+  if not os.path.exists(FLAGS.output_path):
+    os.makedirs(FLAGS.output_path)
+    
   np.save(file=os.path.join(FLAGS.output_path, "predicted_daily_observed"),
           arr=estimator.predict(FLAGS.test_duration, True).numpy())
   np.save(file=os.path.join(FLAGS.output_path, "predicted_daily_infected"),

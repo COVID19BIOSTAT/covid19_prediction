@@ -39,6 +39,9 @@ def main(unused_argv):
   print(f"The selected t0 = {best_t0}, the corresponding weights are "
         f"{best_weights} and loss = {best_loss}.")
 
+  if not os.path.exists(FLAGS.output_path):
+    os.makedirs(FLAGS.output_path)
+    
   np.save(file=os.path.join(FLAGS.output_path, "predicted_daily_observed"),
           arr=estimator.predict(FLAGS.test_duration, True).numpy())
   np.save(file=os.path.join(FLAGS.output_path, "predicted_daily_infected"),
