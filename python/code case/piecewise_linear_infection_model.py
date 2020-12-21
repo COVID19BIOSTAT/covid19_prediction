@@ -485,9 +485,9 @@ class Covid19InfectionsEstimator(sklearn.base.BaseEstimator):
     x_pred = self._get_trainable_x(
         duration, self._final_model.t0, flatten_future)
     if observed_only:
-      return self._final_model.daily_observed(x_pred)[self._final_model.t0:]
+      return self._final_model.daily_observed(x_pred)
     else:
-      return self._final_model.daily_infected(x_pred)[self._final_model.t0:]
+      return self._final_model.daily_infected(x_pred)
 
   def get_infect_rate_features(self, duration: int,
                                flatten_future: bool = False
@@ -509,6 +509,7 @@ class Covid19InfectionsEstimator(sklearn.base.BaseEstimator):
       return None
     x_pred = self._get_trainable_x(
         duration, self._final_model.t0, flatten_future)
-    return self._final_model.infection_rate(x_pred)[
-        self._final_model.t0:], self._final_model.reproduction_number(x_pred)[
-            self._final_model.t0:]
+    # return self._final_model.infection_rate(x_pred)[
+    #     self._final_model.t0:], self._final_model.reproduction_number(x_pred)[
+    #         self._final_model.t0:]
+    return self._final_model.infection_rate(x_pred), self._final_model.reproduction_number(x_pred)

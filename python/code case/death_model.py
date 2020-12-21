@@ -245,4 +245,4 @@ class Covid19DeathEstimator(infection_model.Covid19InfectionsEstimator):
       return None
     x_pred = self._get_trainable_x(
         duration, self._final_model.t0, flatten_future)
-    return self._final_model.daily_death(x_pred)[self._final_model.t0:]
+    return self._final_model.daily_death(x_pred)
