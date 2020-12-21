@@ -28,7 +28,7 @@ flags.DEFINE_integer("min_t0", 1, "Value for which t0 iteration starts.")
 flags.DEFINE_integer("max_t0", 21, "Value for which t0 iteration ends.")
 flags.DEFINE_integer("test_duration", 100, "Number of days to predict")
 flags.DEFINE_float("learning_rate", 0.01, "Initial learning rate.")
-flags.DEFINE_float("loss_prop", 0.9, "Loss weight assigned to death model.")
+flags.DEFINE_float("loss_prop", 0, "Loss weight assigned to death model.")
 flags.DEFINE_list("initial_a", None, "Initial values of vector a.")
 flags.DEFINE_list("knots", None, "Knots in piecewise model.")
 flags.DEFINE_list(

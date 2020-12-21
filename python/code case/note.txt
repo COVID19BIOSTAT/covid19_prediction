@@ -1,0 +1,2 @@
+This is for case phase prediction, using loss_prop = 0
+If want to use for death prediction, change loss_prop to some value > 0.
