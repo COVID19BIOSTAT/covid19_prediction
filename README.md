@@ -25,9 +25,9 @@ Our model is also used by CDC for [COVID-19 ensemble forecast](https://www.cdc.g
 Note: Once the testing capacity is increased, the trend will change again. These are beyond what our model can predict. Since April 14 2020, CDC case counts include both confirmed and probable cases following [new CDC guidelines](https://www.worldometers.info/coronavirus/us-data/). 
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-### US Daily New Cases (with training data up to Nov 6):
+### US Daily New Cases (with training data up to Dec 24):
 
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/daily_case.png)
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1228/daily_case.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
@@ -39,13 +39,13 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 <!---Observed and predicted cumulative deaths, with a 95% prediction interval. --->
 <!---First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
-<!---### US Daily Inc Deaths (with training data up to August 28):--->
-<!---![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/daily_death.png)--->
+### US Daily Inc Deaths (with training data up to Dec 24):
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1228/daily_death.png)
 
 <!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
-### US Current Reproduction Number:
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/Rt.png)
+<!---### US Current Reproduction Number:--->
+<!---![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1120/Rt.png)--->
 
 
 Data source for Italy: [Worldmeters](https://www.worldometers.info/coronavirus/)
