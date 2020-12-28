@@ -40,6 +40,7 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 <!---First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
 ### US Daily Inc Deaths (with training data up to Dec 24):
+#### The cumulative deaths by Jan 18, 2021 will be over 400k.
 ![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot1228/daily_death.png)
 
 <!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
