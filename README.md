@@ -26,8 +26,8 @@ Note: Once the testing capacity is increased, the trend will change again. These
 
 Data source for US: [JHU CSSE group](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 ### US Daily New Cases (with training data up to Jan 9, 2021):
-#### The cumulative cases by Jan 22, 2021 will be over 25 million.
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot0111/daily_case.png)
+<!---#### The cumulative cases by Jan 22, 2021 will be over 25 million.--->
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot0201/daily_case.png)
 
 Observed and predicted daily new cases, with a 95% prediction interval.
 
@@ -40,8 +40,8 @@ Observed and predicted daily new cases, with a 95% prediction interval.
 <!---First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
 ### US Daily Inc Deaths (with training data up to Jan 9, 2021):
-#### The cumulative deaths by Jan 19, 2021 will be over 400k.
-![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot0111/daily_death.png)
+#### The cumulative deaths by Feb 23, 2021 will be over 500k.
+![](https://github.com/COVID19BIOSTAT/covid19_prediction/blob/master/example/plot0201/daily_death.png)
 
 <!---Observed and predicted daily deaths, with a 95% prediction interval. First to third dashed lines indicate knots at May 1, May 22, June 26, July 24 account for reopen. --->
 
